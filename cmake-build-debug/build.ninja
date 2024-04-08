@@ -85,6 +85,18 @@ build CMakeFiles/DataStructures.dir/STL/Example4-5.cpp.o: CXX_COMPILER__DataStru
   OBJECT_DIR = CMakeFiles/DataStructures.dir
   OBJECT_FILE_DIR = CMakeFiles/DataStructures.dir/STL
 
+build CMakeFiles/DataStructures.dir/STL/Example4-6.cpp.o: CXX_COMPILER__DataStructures_Debug /Users/gustavogonzalez/CLionProjects/DataStructures/STL/Example4-6.cpp || cmake_object_order_depends_target_DataStructures
+  DEP_FILE = CMakeFiles/DataStructures.dir/STL/Example4-6.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/DataStructures.dir
+  OBJECT_FILE_DIR = CMakeFiles/DataStructures.dir/STL
+
+build CMakeFiles/DataStructures.dir/STL/Example4-7.cpp.o: CXX_COMPILER__DataStructures_Debug /Users/gustavogonzalez/CLionProjects/DataStructures/STL/Example4-7.cpp || cmake_object_order_depends_target_DataStructures
+  DEP_FILE = CMakeFiles/DataStructures.dir/STL/Example4-7.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/DataStructures.dir
+  OBJECT_FILE_DIR = CMakeFiles/DataStructures.dir/STL
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DataStructures
@@ -93,7 +105,7 @@ build CMakeFiles/DataStructures.dir/STL/Example4-5.cpp.o: CXX_COMPILER__DataStru
 #############################################
 # Link the executable DataStructures
 
-build DataStructures: CXX_EXECUTABLE_LINKER__DataStructures_Debug CMakeFiles/DataStructures.dir/Array-Based-Lists/Example3-2.cpp.o CMakeFiles/DataStructures.dir/Array-Based-Lists/Example3-3.cpp.o CMakeFiles/DataStructures.dir/Array-Based-Lists/Example3-5.cpp.o CMakeFiles/DataStructures.dir/Array-Based-Lists/arrayListType.cpp.o CMakeFiles/DataStructures.dir/Array-Based-Lists/polynomialType.cpp.o CMakeFiles/DataStructures.dir/STL/Example4-5.cpp.o
+build DataStructures: CXX_EXECUTABLE_LINKER__DataStructures_Debug CMakeFiles/DataStructures.dir/Array-Based-Lists/Example3-2.cpp.o CMakeFiles/DataStructures.dir/Array-Based-Lists/Example3-3.cpp.o CMakeFiles/DataStructures.dir/Array-Based-Lists/Example3-5.cpp.o CMakeFiles/DataStructures.dir/Array-Based-Lists/arrayListType.cpp.o CMakeFiles/DataStructures.dir/Array-Based-Lists/polynomialType.cpp.o CMakeFiles/DataStructures.dir/STL/Example4-5.cpp.o CMakeFiles/DataStructures.dir/STL/Example4-6.cpp.o CMakeFiles/DataStructures.dir/STL/Example4-7.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/DataStructures.dir
   POST_BUILD = :
