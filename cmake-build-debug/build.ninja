@@ -73,6 +73,12 @@ build CMakeFiles/DataStructures.dir/Array-Based-Lists/arrayListType.cpp.o: CXX_C
   OBJECT_DIR = CMakeFiles/DataStructures.dir
   OBJECT_FILE_DIR = CMakeFiles/DataStructures.dir/Array-Based-Lists
 
+build CMakeFiles/DataStructures.dir/Array-Based-Lists/polynomialType.cpp.o: CXX_COMPILER__DataStructures_Debug /Users/gustavogonzalez/CLionProjects/DataStructures/Array-Based-Lists/polynomialType.cpp || cmake_object_order_depends_target_DataStructures
+  DEP_FILE = CMakeFiles/DataStructures.dir/Array-Based-Lists/polynomialType.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/DataStructures.dir
+  OBJECT_FILE_DIR = CMakeFiles/DataStructures.dir/Array-Based-Lists
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DataStructures
@@ -81,7 +87,7 @@ build CMakeFiles/DataStructures.dir/Array-Based-Lists/arrayListType.cpp.o: CXX_C
 #############################################
 # Link the executable DataStructures
 
-build DataStructures: CXX_EXECUTABLE_LINKER__DataStructures_Debug CMakeFiles/DataStructures.dir/Array-Based-Lists/Example3-2.cpp.o CMakeFiles/DataStructures.dir/Array-Based-Lists/Example3-3.cpp.o CMakeFiles/DataStructures.dir/Array-Based-Lists/Example3-5.cpp.o CMakeFiles/DataStructures.dir/Array-Based-Lists/arrayListType.cpp.o
+build DataStructures: CXX_EXECUTABLE_LINKER__DataStructures_Debug CMakeFiles/DataStructures.dir/Array-Based-Lists/Example3-2.cpp.o CMakeFiles/DataStructures.dir/Array-Based-Lists/Example3-3.cpp.o CMakeFiles/DataStructures.dir/Array-Based-Lists/Example3-5.cpp.o CMakeFiles/DataStructures.dir/Array-Based-Lists/arrayListType.cpp.o CMakeFiles/DataStructures.dir/Array-Based-Lists/polynomialType.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/DataStructures.dir
   POST_BUILD = :
