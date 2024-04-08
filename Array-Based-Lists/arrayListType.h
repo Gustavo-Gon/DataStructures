@@ -9,6 +9,7 @@
 #ifndef DATASTRUCTURES_ARRAYLISTTYPE_H
 #define DATASTRUCTURES_ARRAYLISTTYPE_H
 #include <iostream>
+#include <cassert> // Include this for assert function
 
 using namespace std;
 
@@ -172,7 +173,7 @@ void arrayListType<elemType>::removeAt(int location) {
              << "is out of range" << endl;
     else {
         for (int i = location; i < length - 1; i++)
-            list[i] = list[i++];
+            list[i] = list[i+1];
         length--;
     }
 } //end removeAt
@@ -211,6 +212,7 @@ arrayListType<elemType>::arrayListType(int size) {
         maxSize = size;
 
     length = 0;
+
     list = new elemType[maxSize];
     assert(list != NULL);
 }
